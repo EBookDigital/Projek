@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="aabutton.css">
+    <link rel="stylesheet" href="aaborang.css">
+    <style>
+        body {
+            background-image: url('imej/maktab-sultan-abu-bakar.png');
+            width： 100%; 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat; 
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img class="tajuk" src="imej/tajuk.png" width="500">
+    </center>
+
+    <h3 class="pendek">LOG IN</h3>
+    <form class="pendek" action="index.php" method="post">
+        <table>
+            <tr>
+                <td><img src="imej/user.png"></td>
+                <td><input type="text" name="userid" placeholder="idpengguna"></td>
+            </tr>
+            <tr>
+                <td><img src="imej/lock.png"></td>
+                <td><input type="password" name="password" placeholder="password"></td>
+            </tr>
+        </table>
+        <button class="login" type="submit" name="submit">Login</button>
+        <button class="signup" type="button" onclick="window.location='signup.php'">Sign Up</button>
+    </form>
+</body>
+
+</html>
